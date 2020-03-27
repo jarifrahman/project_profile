@@ -25,7 +25,7 @@ SECRET_KEY = 'e=p#@#t#uxhm3@2e#s(n+3$1f-qeus7wp$q%g=i5o*k6t$n00i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['157.245.85.149']
 
 
 # Application definition
@@ -79,9 +79,9 @@ WSGI_APPLICATION = 'profile_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfoliodb',
-        'USER':'postgres',
-        'PASSWORD':'chichichi1',
+        'NAME': 'profiledb',
+        'USER':'djangodbjarif',
+        'PASSWORD':'django1234',
         'HOST':'localhost',
         'PORT':'5432',
     }
